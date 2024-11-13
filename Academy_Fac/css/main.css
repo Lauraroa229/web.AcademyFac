@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  background-image: url("html\Academy_Fac\ruta\a\tu\images\fondo_aviones.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+  
+  .banner {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+  }
+
+/* Estilo para el fondo */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("../images/fondo_aviones.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Estilo del formulario */
+.form-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+
+
+/* Títulos y botones */
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #004080;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #002c57;
+  transform: translateY(-3px);
+}
+
+/* Estilos básicos para el menú de navegación */
+.navbar {
+  background-color: rgba(0, 51, 102, 0.8); /* Fondo translúcido */
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  display: block;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.menu li a:hover {
+  color: #ffcc00;
+  transform: scale(1.1); /* Aumenta el tamaño al pasar el cursor */
+}
+
+/* Efecto de subrayado animado */
+.menu li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #ffcc00;
+  transition: width 0.3s ease;
+}
+
+.menu li a:hover::after {
+  width: 100%; /* Expande el subrayado al 100% en hover */
+}
+
+  
